@@ -94,14 +94,60 @@
 }
 
 @font-face {
-    font-family: 'GroteskRemix';
-    src: url(../fonts/GroteskRemix-Regular.ttf) format('woff');
+    font-family: 'Grotesk Remix';
+    src: url('GroteskRemix-Regular.eot');
+    src: local('Grotesk Remix Regular'), local('GroteskRemix-Regular'),
+        url('GroteskRemix-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GroteskRemix-Regular.woff2') format('woff2'),
+        url('GroteskRemix-Regular.woff') format('woff'),
+        url('GroteskRemix-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
+}
+
+@font-face {
+    font-family: 'Grotesk Remix';
+    src: url('GroteskRemix-Bold.eot');
+    src: local('Grotesk Remix Bold'), local('GroteskRemix-Bold'),
+        url('GroteskRemix-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GroteskRemix-Bold.woff2') format('woff2'),
+        url('GroteskRemix-Bold.woff') format('woff'),
+        url('GroteskRemix-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
+}
+
+@font-face {
+    font-family: 'Grotesk Remix';
+    src: url('GroteskRemix-Medium.eot');
+    src: local('Grotesk Remix Medium'), local('GroteskRemix-Medium'),
+        url('GroteskRemix-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GroteskRemix-Medium.woff2') format('woff2'),
+        url('GroteskRemix-Medium.woff') format('woff'),
+        url('GroteskRemix-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
+}
+
+@font-face {
+    font-family: 'Grotesk Remix';
+    src: url('GroteskRemix-Light.eot');
+    src: local('Grotesk Remix Light'), local('GroteskRemix-Light'),
+        url('GroteskRemix-Light.eot?#iefix') format('embedded-opentype'),
+        url('GroteskRemix-Light.woff2') format('woff2'),
+        url('GroteskRemix-Light.woff') format('woff'),
+        url('GroteskRemix-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
 }
 
 :root {
-    --font-1: 'GroteskRemix', 'Noto Sans KR', sans-serif;
-    --font-2: 'GroteskRemix', 'Noto Sans KR', sans-serif;
+    --font-1: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
+    --font-2: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
     /* monospace
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -2802,6 +2848,7 @@ button.btn--pill {
 .percent {
     margin-left: 20px;
     color: #9d2121;
+    font-weight: normal;
 }
 
 .skill-bars-fat {
@@ -3296,7 +3343,7 @@ button.btn--pill {
 }
 
 .mailtoui-modal-content button {
-    font-weight: 400;
+    font-weight: normal;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -3308,7 +3355,7 @@ button.btn--pill {
 
 .mailtoui-modal-title {
     font-family: var(--font-1);
-    font-weight: 400;
+    font-weight: normal;
     font-size: 16px;
     color: var(--mailtoui-modal-head-title-color);
 }
@@ -3318,14 +3365,14 @@ button.btn--pill {
     text-shadow: none;
     color: transparent;
     font-size: 32px;
-    font-weight: 300;
+    font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
 }
 
 .mailtoui-modal-close:hover,
 .mailtoui-modal-close:focus {
     color: #fff;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .mailtoui-modal-body {
@@ -3391,7 +3438,7 @@ button.btn--pill {
 
 .mailtoui-brand a:hover,
 .mailtoui-brand a:focus {
-    font-weight: 400;
+    font-weight: normal;
     color: #9d2121;
 }
 
@@ -3475,7 +3522,7 @@ button.btn--pill {
 .s-header__nav {
     font-family: var(--font-1);
     font-size: 1.45rem;
-    font-weight: 600;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
@@ -3796,11 +3843,12 @@ button.btn--pill {
     color: #333;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 .s-hero__content h3 {
     font-family: var(--font-2);
-    font-weight: 600;
+    font-weight: normal;
     font-size: 2.4rem;
     line-height: 1.667;
     color: #333;
@@ -3850,7 +3898,7 @@ button.btn--pill {
  * ## hero scrolldown
  * ------------------------------------------------------------------- */
 .scroll-text {
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .s-hero__scroll {
@@ -4092,7 +4140,7 @@ button.btn--pill {
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
     color: #333;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .s-about h3 {
@@ -4110,11 +4158,13 @@ button.btn--pill {
 }
 
 .s-about__content-bottom {
+    font-weight: normal;
     margin-top: var(--vspace-2);
 }
 
 .s-about__content-bottom a:hover,
 .s-about__content-bottom a:focus {
+    font-weight: normal;
     color: #9d2121;
 }
 
@@ -4195,7 +4245,7 @@ button.btn--pill {
 .s-resume {
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .s-resume__section {
@@ -4227,6 +4277,7 @@ button.btn--pill {
     border: 1px solid #9d2121;
     text-align: center;
     padding: 10px 0;
+    font-weight: normal;
 }
 
 .line {
@@ -4241,6 +4292,7 @@ button.btn--pill {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    font-weight: normal;
 }
 
 .mg2 {
@@ -4386,13 +4438,13 @@ button.btn--pill {
     font-size: 20px;
     color: #333;
     margin: 0;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .info {
     font-size: 14px;
     color: #333;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 .sub_title {
@@ -4733,7 +4785,7 @@ button.btn--pill {
 }
 
 .testimonial-slider p {
-    font-weight: 300;
+    font-weight: normal;
     font-size: 1.7rem;
     line-height: var(--vspace-1);
 }
@@ -4778,7 +4830,7 @@ button.btn--pill {
 .testimonial-slider__cite span {
     display: block;
     font-size: calc(var(--text-size) * 0.778);
-    font-weight: 300;
+    font-weight: normal;
     line-height: var(--vspace-0_5);
     color: rgba(255, 255, 255, 0.6);
 }
@@ -4832,7 +4884,7 @@ button.btn--pill {
 .s-contact .huge-text {
     color: #333;
     margin-top: 0;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 2.6rem;
     line-height: 1.304;
 }
@@ -4865,7 +4917,7 @@ button.btn--pill {
 
 .contact-block {
     font-size: 2.2rem;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 1.286;
 }
 
@@ -4880,7 +4932,7 @@ button.btn--pill {
 
 .contact-block__header {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: normal;
     color: #333;
     margin-top: 0;
     margin-bottom: .2rem;
