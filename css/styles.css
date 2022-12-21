@@ -95,12 +95,12 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('GroteskRemix-Regular.eot');
+    src: url('../fonts/GroteskRemix-Regular.eot');
     src: local('Grotesk Remix Regular'), local('GroteskRemix-Regular'),
-        url('GroteskRemix-Regular.eot?#iefix') format('embedded-opentype'),
-        url('GroteskRemix-Regular.woff2') format('woff2'),
-        url('GroteskRemix-Regular.woff') format('woff'),
-        url('GroteskRemix-Regular.ttf') format('truetype');
+        url('../fonts/GroteskRemix-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GroteskRemix-Regular.woff2') format('woff2'),
+        url('../fonts/GroteskRemix-Regular.woff') format('woff'),
+        url('../fonts/GroteskRemix-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
@@ -108,12 +108,12 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('GroteskRemix-Bold.eot');
+    src: url('../fonts/GroteskRemix-Bold.eot');
     src: local('Grotesk Remix Bold'), local('GroteskRemix-Bold'),
-        url('GroteskRemix-Bold.eot?#iefix') format('embedded-opentype'),
-        url('GroteskRemix-Bold.woff2') format('woff2'),
-        url('GroteskRemix-Bold.woff') format('woff'),
-        url('GroteskRemix-Bold.ttf') format('truetype');
+        url('../fonts/GroteskRemix-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GroteskRemix-Bold.woff2') format('woff2'),
+        url('../fonts/GroteskRemix-Bold.woff') format('woff'),
+        url('../fonts/GroteskRemix-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
@@ -121,12 +121,12 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('GroteskRemix-Medium.eot');
+    src: url('../fonts/GroteskRemix-Medium.eot');
     src: local('Grotesk Remix Medium'), local('GroteskRemix-Medium'),
-        url('GroteskRemix-Medium.eot?#iefix') format('embedded-opentype'),
-        url('GroteskRemix-Medium.woff2') format('woff2'),
-        url('GroteskRemix-Medium.woff') format('woff'),
-        url('GroteskRemix-Medium.ttf') format('truetype');
+        url('../fonts/GroteskRemix-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GroteskRemix-Medium.woff2') format('woff2'),
+        url('../fonts/GroteskRemix-Medium.woff') format('woff'),
+        url('../fonts/GroteskRemix-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
@@ -134,12 +134,12 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('GroteskRemix-Light.eot');
+    src: url('../fonts/GroteskRemix-Light.eot');
     src: local('Grotesk Remix Light'), local('GroteskRemix-Light'),
-        url('GroteskRemix-Light.eot?#iefix') format('embedded-opentype'),
-        url('GroteskRemix-Light.woff2') format('woff2'),
-        url('GroteskRemix-Light.woff') format('woff'),
-        url('GroteskRemix-Light.ttf') format('truetype');
+        url('../fonts/GroteskRemix-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GroteskRemix-Light.woff2') format('woff2'),
+        url('../fonts/GroteskRemix-Light.woff') format('woff'),
+        url('../fonts/GroteskRemix-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
@@ -148,9 +148,6 @@
 :root {
     --font-1: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
     --font-2: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
-    /* monospace
-     */
-    --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
 /* ------------------------------------------------------------------- 
