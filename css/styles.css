@@ -86,7 +86,6 @@
 @font-face {
     font-family: 'Noto Sans KR', sans-serif;
     unicode-range: U+AC00-D7A3;
-    font-weight: 100;
 }
 
 @font-face {
@@ -3789,7 +3788,6 @@ button.btn--pill {
 
 .s-hero__content h1 {
     font-size: 9.8rem;
-    font-weight: 600;
     line-height: 1;
     color: #333;
     margin-top: 0;
@@ -3798,7 +3796,6 @@ button.btn--pill {
 
 .s-hero__content h3 {
     font-family: var(--font-2);
-    font-weight: 600;
     font-size: 2.4rem;
     line-height: 1.667;
     color: #333;
@@ -3848,9 +3845,6 @@ button.btn--pill {
 /* ------------------------------------------------------------------- 
  * ## hero scrolldown
  * ------------------------------------------------------------------- */
-.scroll-text {
-    font-weight: 600;
-}
 
 .s-hero__scroll {
     -webkit-transform: translateX(-50%);
@@ -4391,7 +4385,7 @@ button.btn--pill {
 .info {
     font-size: 14px;
     color: #333;
-    font-weight: 300;
+
 }
 
 .sub_title {
