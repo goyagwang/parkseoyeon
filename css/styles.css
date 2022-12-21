@@ -89,14 +89,14 @@
 }
 
 @font-face {
-    font-family: 'GroteskRemix-Regular';
+    font-family: 'GroteskRemix';
     src: url(../fonts/GroteskRemix-Regular.ttf) format('woff');
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
 }
 
 :root {
-    --font-1: 'GroteskRemix-Regular', 'Noto Sans KR', sans-serif;
-    --font-2: 'GroteskRemix-Regular', 'Noto Sans KR', sans-serif;
+    --font-1: 'GroteskRemix', 'Noto Sans KR', sans-serif;
+    --font-2: 'GroteskRemix', 'Noto Sans KR', sans-serif;
     /* monospace
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -3791,18 +3791,18 @@ button.btn--pill {
     line-height: 1;
     color: #333;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .s-hero__content h3 {
     font-family: var(--font-2);
+    font-weight: 600;
     font-size: 2.4rem;
     line-height: 1.667;
     color: #333;
     margin-top: var(--vspace-0_5);
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: var(--vspace-1);
     max-width: 800px;
     position: relative;
 }
@@ -3845,6 +3845,9 @@ button.btn--pill {
 /* ------------------------------------------------------------------- 
  * ## hero scrolldown
  * ------------------------------------------------------------------- */
+.scroll-text {
+    font-weight: 600;
+}
 
 .s-hero__scroll {
     -webkit-transform: translateX(-50%);
@@ -4385,7 +4388,7 @@ button.btn--pill {
 .info {
     font-size: 14px;
     color: #333;
-
+    font-weight: 300;
 }
 
 .sub_title {
