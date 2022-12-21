@@ -1852,9 +1852,8 @@ h6,
 .h5,
 .h6 {
     font-family: var(--font-1);
-    font-weight: 600;
     font-style: normal;
-    color: var(--color-text-dark);
+    color: #333;
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
