@@ -95,7 +95,7 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('../fonts/GroteskRemix-Regular.eot');
+    src: url('../fonts/GroteskRemix-Regular.ttf');
     src: local('Grotesk Remix Regular'), local('GroteskRemix-Regular'),
         url('../fonts/GroteskRemix-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/GroteskRemix-Regular.woff2') format('woff2'),
@@ -108,20 +108,7 @@
 
 @font-face {
     font-family: 'Grotesk Remix';
-    src: url('../fonts/GroteskRemix-Bold.eot');
-    src: local('Grotesk Remix Bold'), local('GroteskRemix-Bold'),
-        url('../fonts/GroteskRemix-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GroteskRemix-Bold.woff2') format('woff2'),
-        url('../fonts/GroteskRemix-Bold.woff') format('woff'),
-        url('../fonts/GroteskRemix-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
-}
-
-@font-face {
-    font-family: 'Grotesk Remix';
-    src: url('../fonts/GroteskRemix-Medium.eot');
+    src: url('../fonts/GroteskRemix-Medium.ttf');
     src: local('Grotesk Remix Medium'), local('GroteskRemix-Medium'),
         url('../fonts/GroteskRemix-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/GroteskRemix-Medium.woff2') format('woff2'),
@@ -132,22 +119,12 @@
     unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
 }
 
-@font-face {
-    font-family: 'Grotesk Remix';
-    src: url('../fonts/GroteskRemix-Light.eot');
-    src: local('Grotesk Remix Light'), local('GroteskRemix-Light'),
-        url('../fonts/GroteskRemix-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GroteskRemix-Light.woff2') format('woff2'),
-        url('../fonts/GroteskRemix-Light.woff') format('woff'),
-        url('../fonts/GroteskRemix-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+00E6;
-}
-
 :root {
     --font-1: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
     --font-2: 'Grotesk Remix', 'Noto Sans KR', sans-serif;
+    /* monospace
+     */
+    --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
 /* ------------------------------------------------------------------- 
