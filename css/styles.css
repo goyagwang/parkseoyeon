@@ -82,7 +82,7 @@
 
 ::selection {
     background-color: #9d2121;
-    color: #e4f9f0;
+    color: #fff;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2845,7 +2845,7 @@ button.btn--pill {
 }
 
 .skill-bars-fat li strong:nth-child(1) {
-    width: 150px;
+    width: 135px;
 }
 
 .skill-bars-fat li strong {
@@ -4133,6 +4133,10 @@ button.btn--pill {
     box-shadow: 0 10px 20px #e4f9f0;
 }
 
+.pd {
+    padding-bottom: 15px;
+}
+
 .s-about__content-bottom {
     font-weight: normal;
     margin-top: var(--vspace-2);
@@ -4178,7 +4182,6 @@ button.btn--pill {
     .s-about__pic {
         width: var(--vspace-4_5);
         height: var(--vspace-4_5);
-        border-width: 1.4rem;
     }
 }
 
@@ -4186,7 +4189,6 @@ button.btn--pill {
     .s-about__pic {
         width: var(--vspace-4);
         height: var(--vspace-4);
-        border-width: 1.2rem;
     }
 }
 
