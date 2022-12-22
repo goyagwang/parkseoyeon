@@ -93,9 +93,11 @@
                     <h1>Park Seoyeon</h1>
 
                     <span class="scroll-text">click!</span>
-                    <div id="player">
+                    <img id="play" style="width: 30px; height: 30px;" src="./images/play2.png">
+                    <img id="pause" style="width: 30px; height: 30px; display: none;" src="./images/pause2.png">
+                    <!--<div id="player">
                         <audio src="./Wallflowers - Bad Snacks.mp3" controls autoplay loop></audio>
-                    </div>
+                    </div>-->
 
                 </div> <!-- end s-hero__content-about -->
             </div>
@@ -458,6 +460,41 @@
         AOS.init();
     </script>
 
+    <script>
+        var audio = new Audio('Wallflowers - Bad Snacks.mp3');
+
+        audio.autoplay = true;
+
+        /*추가된 부분: 종료되면 처음부터 다시 재생*/
+        audio.addEventListener('ended', function () {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            /*웹페이지 열었을 때*/
+            $("#play").show();
+            $("#pause").hide();
+
+            /*img1을 클릭했을 때 img2를 보여줌*/
+            $("#play").click(function () {
+                $("#play").hide();
+                $("#pause").show();
+                audio.play();
+            });
+
+            /*img2를 클릭했을 때 img1을 보여줌*/
+            $("#pause").click(function () {
+                $("#play").show();
+                $("#pause").hide();
+                audio.pause();
+            });
+        });
+    </script>
 </body>
 
 </html>
