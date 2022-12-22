@@ -337,7 +337,7 @@
     height: 100%;
 }
 
-#player {
+/*#player {
     width: 30px;
     height: 30px;
     overflow: hidden;
@@ -364,6 +364,7 @@ audio::-webkit-media-controls-play-button:hover {
 audio::-webkit-media-controls-play-button {
     color: #9d2121;
 }
+*/
 
 /* ==========================================================================
  * # normalize
@@ -3816,7 +3817,7 @@ button.btn--pill {
 .s-hero__content h1 {
     font-size: 9.8rem;
     line-height: 1;
-    color: #333;
+    color: #9d2121;
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 500;
@@ -3874,6 +3875,7 @@ button.btn--pill {
  * ## hero scrolldown
  * ------------------------------------------------------------------- */
 .scroll-text {
+    display: block;
     font-weight: normal;
 }
 
@@ -4135,6 +4137,11 @@ button.btn--pill {
 
 .pd {
     padding-bottom: 15px;
+}
+
+#play,
+#pause {
+    cursor: pointer;
 }
 
 .s-about__content-bottom {
