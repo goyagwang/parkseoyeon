@@ -4115,7 +4115,6 @@ button.btn--pill {
     --color-border: var(--color-gray-16);
     background-color: #fff;
     padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
     color: #333;
     font-weight: normal;
 }
@@ -4975,16 +4974,9 @@ button.btn--pill {
     .s-contact__header {
         text-align: center;
     }
-
-    .s-contact .huge-text {
-        font-size: 4.2rem;
-    }
 }
 
 @media screen and (max-width: 600px) {
-    .s-contact .huge-text {
-        font-size: 3.4rem;
-    }
 
     .contact-block {
         font-size: 2.6rem;
@@ -4995,10 +4987,13 @@ button.btn--pill {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .s-contact .huge-text {
-        font-size: 3.2rem;
+@media screen and (max-width: 500px) {
+    .s-contact .huge-text br {
+        display: none;
     }
+}
+
+@media screen and (max-width: 400px) {
 
     .contact-block {
         font-size: 2.2rem;
@@ -5007,12 +5002,14 @@ button.btn--pill {
     .contact-block__header {
         font-size: 1.6rem;
     }
+
 }
 
 @media screen and (max-width: 360px) {
     .s-contact .huge-text {
-        font-size: 3rem;
+        font-size: 1.9rem;
     }
+
 }
 
 
