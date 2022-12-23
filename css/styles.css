@@ -2128,7 +2128,7 @@ mark {
 }
 
 hr {
-    border: solid var(--color-border);
+    border: solid #ccc;
     border-width: .1rem 0 0;
     clear: both;
     margin: var(--vspace-2) 0 calc(var(--vspace-2) - .1rem);
@@ -5029,7 +5029,7 @@ button.btn--pill {
 
 .s-footer .row {
     padding-top: var(--vspace-1);
-    border-top: 1px solid #333;
+    border-top: 1px solid #ccc;
 }
 
 /* ------------------------------------------------------------------- 
