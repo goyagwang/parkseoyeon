@@ -4237,7 +4237,6 @@ button.btn--pill {
  * ------------------------------------------------------------------- */
 .s-resume {
     padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
     font-weight: normal;
 }
 
